@@ -3,7 +3,7 @@ const mysql = require('mysql')
 class Connection {
   constructor() {
     if (!this.pool) {
-      console.log('creating mysql connection...')
+      console.log('creating connection...')
 
       const config = {
         connectionLimit: 100,
